@@ -73,6 +73,7 @@ $ bundle
   remove_keys log
   <record>
     time ${time}
+    app_tag ${tag_parts[1]}
   </record>
 </filter>
 
