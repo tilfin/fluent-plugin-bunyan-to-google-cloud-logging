@@ -60,11 +60,7 @@ module Fluent::Plugin
         entry.labels = labels unless labels.empty?
 
         entry.resource.type = "global"
-        if time.is_a?(Numeric)
-          entry.timestamp = Time.at(time)
-        else
-          entry.timestamp = Time.at(time.sec, time.nsec, :nsec)
-        end
+        entry.timestamp = Time.at(time.to_r)
         entry.severity = severity(record["level"])
         entry.payload = record
         entries << entry
