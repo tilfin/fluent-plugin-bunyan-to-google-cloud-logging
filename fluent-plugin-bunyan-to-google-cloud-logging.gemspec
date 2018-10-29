@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Toshimitsu Takahashi"]
   spec.email   = ["toshi@tilfin.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Fluentd plugin to transfer bunyan format logs to Google Cloud Logging}
+  spec.description   = %q{Fluentd plugin to parse bunyan format logs and to transfer Google Cloud Logging.}
+  spec.homepage      = "https://github.com/tilfin/fluent-plugin-bunyan-to-google-cloud-logging"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
