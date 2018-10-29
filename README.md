@@ -1,5 +1,7 @@
 # fluent-plugin-bunyan-to-google-cloud-logging
 
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-bunyan-to-google-cloud-logging.svg)](https://badge.fury.io/rb/fluent-plugin-bunyan-to-google-cloud-logging)
+
 [Fluentd](https://www.fluentd.org/) plugin to parse [bunyan](https://www.npmjs.com/package/bunyan) format logs and to transfer Google Cloud Logging.
 
 ## Installation
